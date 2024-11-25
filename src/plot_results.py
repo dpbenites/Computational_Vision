@@ -16,7 +16,7 @@ def plot_metrics(data):
         plt.plot(subset["Epochs"], subset["Train Accuracy"], marker='o', label=f"Train Acc (Batch={batch})")
         plt.plot(subset["Epochs"], subset["Validation Accuracy"], marker='x', linestyle='--', label=f"Val Acc (Batch={batch})")
     
-    plt.title("Train vs Validation Accuracy por Épocas")
+    plt.title("Train vs Validation Accuracy por Epochs")
     plt.xlabel("Epochs")
     plt.ylabel("Accuracy")
     plt.legend()
